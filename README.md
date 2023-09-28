@@ -63,10 +63,12 @@ abstract class BaseIntegrationTest {
 ## 🚀 Generate Test Functions
 To create similar functions from a sample base class, we will use the concept of Seed and Generator from the realm of pseudo-random numbers, explained in detail in the Guidelines.
 
-### 🛠️ Structure
-We will rely on two structures:
+We will base ourselves on 2 structures:
+The first one, the structure using the ChatGPT context. ChatGPT is designed to maintain context within a conversation, allowing it to understand and respond to the current thread of conversation.
 
-#### **Using the context of ChatGPT**.
+The second one, using custom instructions. Through this functionality, ChatGPT allows us to preload 2 prompts through 2 questions, which will be useful to load the seed and the generator. Here, we must take into account the limit of 1500 characters for each preloaded prompt.
+
+### 🛠  Using the context
 Seed
 ```
 You should take this class as the base for future kotlin classes, keeping the structure:
@@ -94,7 +96,7 @@ Kotlin Class to Test:
 [Class or function to test]
 ```
 
-#### **Using custom instructions from ChatGPT**.
+### 🛠 Using custom instructions
 
 Seed: What would you like ChatGPT to know about you to provide better responses?
 ```
@@ -126,7 +128,7 @@ Testing Guidelines:
 ## 🚀 Generate Test Data
 Use the structure of the Object Mother pattern to generate test data. Add the suffix "Mother" to the class name, for example, CreateAdditionalCardMother. The term "Mother" comes from Domain-Driven Design (DDD) and symbolizes the birth or creation of objects. In the context of Martin Fowler's Object Mother pattern, these classes are used to centralize the creation of test objects and provide default values to simplify test data setup. It is advisable to use this class for objects that exceed 10 lines of code.
 
-### 🛠️ Using the context of ChatGPT.
+### 🛠️ Using the context
 
 ### 🧪 Repository
 
