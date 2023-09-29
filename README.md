@@ -125,12 +125,12 @@ Testing Guidelines:
 #### Example of use case generation using the ChatGPT context:
 
  1. Templates
- **[Here you will find the seed and generator used](https://github.com/FahedHermoza/android-testing-with-chatgpt/blob/main/Templates/UseCase-Template.md#-templates-using-the-chatgpt-context)**
+ **[Here you will find the seed and generator used](https://github.com/FahedHermoza/android-testing-with-chatgpt/blob/main/Templates/UseCase-Template.md#-example-of-use-case-generation-using-the-chatgpt-context)**
  2. Video:
 
 #### Example of use case generation using ChatGPT's Custom Instruction:
  1. Templates
-**[Here you will find the seed, generator, prompt used](https://github.com/FahedHermoza/android-testing-with-chatgpt/blob/main/Templates/UseCase-Template.md#-templates-using-chatgpts-custom-instruction)**
+**[Here you will find the seed, generator, prompt used](https://github.com/FahedHermoza/android-testing-with-chatgpt/blob/main/Templates/UseCase-Template.md#-example-of-use-case-generation-using-chatgpts-custom-instruction)**
  2. Video
 
 ### 🧪 Repository
