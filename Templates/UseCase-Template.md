@@ -1,4 +1,4 @@
-h1 align="center">🧪 UseCase </h1>
+<h1 align="center">🧪 Use Case Template </h1>
 
 ## 🤖 Example of use case generation using the ChatGPT context
 ### Seed:
