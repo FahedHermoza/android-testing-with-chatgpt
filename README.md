@@ -122,16 +122,16 @@ Testing Guidelines:
 - The test must use "runTest" as coroutine builder.
 ```
 ### 🧪 UseCase
-Example of use case generation using the ChatGPT context:
+#### Example of use case generation using the ChatGPT context:
 
-#### Templates
-Here you will find the seed and generator used.
-#### Video
+ 1. Templates
+ **[Here you will find the seed and generator used](https://github.com/FahedHermoza/android-testing-with-chatgpt/blob/main/Templates/UseCase-Template.md#-templates-using-the-chatgpt-context)**
+ 2. Video:
 
-Example of use case generation using ChatGPT's Custom Instruction:
-#### Templates
-Here you will find the seed and generator used.
-#### Video
+#### Example of use case generation using ChatGPT's Custom Instruction:
+ 1. Templates
+**[Here you will find the seed, generator, prompt used](https://github.com/FahedHermoza/android-testing-with-chatgpt/blob/main/Templates/UseCase-Template.md#-templates-using-chatgpts-custom-instruction)**
+ 2. Video
 
 ### 🧪 Repository
 
