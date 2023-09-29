@@ -1,11 +1,6 @@
-<h1 align="center">🧪 UseCase </h1>
+h1 align="center">🧪 UseCase </h1>
 
-<div align="center">
-        <img width="60%" src="screenshots/badge.svg" alt="About screen" title="About screen"</img>
-        <img height="0" width="5px">
-</div>
-
-## 🤖 Templates using the ChatGPT context
+## 🤖 Example of use case generation using the ChatGPT context
 ### Seed:
 ```
 You should take this class as the base for future kotlin classes, keeping the structure:
@@ -97,7 +92,7 @@ internal class GetAlbumListUseCase(
 }
 ```
 
-## 🤖 Templates using ChatGPT's Custom Instruction
+## 🤖 Example of use case generation using ChatGPT's Custom Instruction
 ### Seed: What would you like ChatGPT to know about you to provide better responses?
 ```
 You should take this class as the base for future kotlin classes, keeping the structure:
