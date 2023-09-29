@@ -8,7 +8,7 @@
 Welcome to Android Testing with ChatGPT! The goal of this repository is to implement the use of an AI tool like "ChatGPT" in the testing process, adhering to the current standards used by an Android engineering team.
 
 Here is a guide that will give you an introduction to the terminology used in this repository: Android Testing, ChatGPT, Context, Generate Similar Functions, Custom Instructions.
-- **[Guidelines]()**
+- **[Guidelines](https://medium.com/@fahedhermoza/android-testing-guidelines-enhanced-with-chatgpt-48d5ef51dd39)**
 
 This contains all topics to help you find what you are looking for quickly. I hope I can help you.
 
@@ -122,6 +122,16 @@ Testing Guidelines:
 - The test must use "runTest" as coroutine builder.
 ```
 ### 🧪 UseCase
+Example of use case generation using the ChatGPT context:
+
+#### Templates
+Here you will find the seed and generator used.
+#### Video
+
+Example of use case generation using ChatGPT's Custom Instruction:
+#### Templates
+Here you will find the seed and generator used.
+#### Video
 
 ### 🧪 Repository
 
