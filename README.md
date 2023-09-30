@@ -170,8 +170,17 @@ Testing Guidelines:
  - 
  
  3. Use Case
+<div align="center">
+        <img width="75%" src="screenshots/Repository/Context/UseCase.svg" alt="About screen" title="About screen"</img>
+        <img height="0" width="5px">
+</div>
 
  4. Generated Code
+<div align="center">
+        <img width="75%" src="screenshots/Repository/Context/UseCaseTest.svg" alt="About screen" title="About screen"</img>
+        <img height="0" width="5px">
+</div>
+
 #### Example of use case generation using ChatGPT's Custom Instruction:
  1. Templates
 - **[Here you will find the seed, generator, prompt used](https://github.com/FahedHermoza/android-testing-with-chatgpt/blob/main/Templates/Repository-Template.md#-example-of-use-case-generation-using-chatgpts-custom-instruction)**
@@ -180,9 +189,17 @@ Testing Guidelines:
 -
 
  3. Use Case
+ <div align="center">
+        <img width="75%" src="screenshots/Repository/CustomInstructions/UseCase.svg" alt="About screen" title="About screen"</img>
+        <img height="0" width="5px">
+</div>
  
  4. Generated Code
- 
+ <div align="center">
+        <img width="75%" src="screenshots/Repository/CustomInstructions/UseCaseTest.svg" alt="About screen" title="About screen"</img>
+        <img height="0" width="5px">
+</div>
+
 
 ## 🚀 Generate Test Data
 Use the structure of the Object Mother pattern to generate test data. Add the suffix "Mother" to the class name, for example, CreateAdditionalCardMother. The term "Mother" comes from Domain-Driven Design (DDD) and symbolizes the birth or creation of objects. In the context of Martin Fowler's Object Mother pattern, these classes are used to centralize the creation of test objects and provide default values to simplify test data setup. It is advisable to use this class for objects that exceed 10 lines of code.
