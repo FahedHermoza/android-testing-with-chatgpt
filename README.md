@@ -127,17 +127,17 @@ Testing Guidelines:
  1. Templates
  **[Here you will find the seed and generator used](https://github.com/FahedHermoza/android-testing-with-chatgpt/blob/main/Templates/UseCase-Template.md#-example-of-use-case-generation-using-the-chatgpt-context)**
 
- 2. Video:
+ 2. Video
  
  3. Use Case
- <div align="center">
+<div align="center">
         <img width="60%" src="screenshots/UseCase/Context/UseCase.svg" alt="About screen" title="About screen"</img>
         <img height="0" width="5px">
 </div>
 
  4. Generated Code
- <div align="center">
-        <img width="60%" src="screenshots/UseCase/Context/UseCaseTest.svg" alt="About screen" title="About screen"</img>
+<div align="center">
+        <img width="75%" src="screenshots/UseCase/Context/UseCaseTest.svg" alt="About screen" title="About screen"</img>
         <img height="0" width="5px">
 </div>
 
@@ -145,6 +145,18 @@ Testing Guidelines:
  1. Templates
 **[Here you will find the seed, generator, prompt used](https://github.com/FahedHermoza/android-testing-with-chatgpt/blob/main/Templates/UseCase-Template.md#-example-of-use-case-generation-using-chatgpts-custom-instruction)**
  2. Video
+
+ 3. Use Case
+<div align="center">
+        <img width="60%" src="screenshots/UseCase/CustomInstructions/UseCase.svg" alt="About screen" title="About screen"</img>
+        <img height="0" width="5px">
+</div>
+
+ 4. Generated Code
+<div align="center">
+        <img width="75%" src="screenshots/UseCase/CustomInstructions/UseCaseTest.svg" alt="About screen" title="About screen"</img>
+        <img height="0" width="5px">
+</div>
 
 ### 🧪 Repository
 
