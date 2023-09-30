@@ -1,4 +1,4 @@
-<h1 align="center">🧪 Repository Template </h1>
+<h1 align="center">🧪 Test Data Template </h1>
 
 ## 🤖 Example of use case generation using the ChatGPT context
 ### Seed:

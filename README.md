@@ -205,8 +205,35 @@ Testing Guidelines:
 Use the structure of the Object Mother pattern to generate test data. Add the suffix "Mother" to the class name, for example, CreateAdditionalCardMother. The term "Mother" comes from Domain-Driven Design (DDD) and symbolizes the birth or creation of objects. In the context of Martin Fowler's Object Mother pattern, these classes are used to centralize the creation of test objects and provide default values to simplify test data setup. It is advisable to use this class for objects that exceed 10 lines of code.
 
 ### 🛠️ Using the context
+Seed
+```
+You should take this class as the base for future kotlin mother classes:
+[Example Base Class]
+```
 
-### 🧪 Repository
+Generator
+```
+Task: Can you give me a function that mocks the following class to test? 
+
+Testing Language: Kotlin
+
+Testing Guidelines:
+- Use Martin Fowler's mother pattern object. 
+- Provide default values that are neither null nor empty. 
+- Don't generate comments on default values:
+
+Class to convert:
+[class or data class structure]
+
+Consider the following related classes:
+[Child class structures]
+```
+### 🧪 Test Data
+ 1. Templates
+- **[Here you will find the seed, generator, prompt used](https://github.com/FahedHermoza/android-testing-with-chatgpt/blob/main/Templates/TestData-Template.md#-example-of-use-case-generation-using-the-chatgpt-context)**
+
+ 2. Video
+-
 
 ## 🚦 Wrap Up
 If you have an idea to improve the map, feel free to discuss it in the issues.
