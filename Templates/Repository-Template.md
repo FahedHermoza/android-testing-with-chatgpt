@@ -81,21 +81,15 @@ internal class AlbumRepositoryImpl(
     private val albumDao: AlbumDao,
 ) : AlbumRepository {
 
-    override suspend fun searchAlbum(phrase: String?): Result<List<Album>> =
-        when (val apiResult = albumRetrofitService.searchAlbumAsync(phrase)) {
+    override suspend fun getAlbumInfo(artistName: String, albumName: String, mbId: String?): Result<Album> =
+        when (val apiResult = albumRetrofitService.getAlbumInfoAsync(artistName, albumName, mbId)) {
             is ApiResult.Success -> {
-                val albums = apiResult
+                val album = apiResult
                     .data
-                    .results
-                    .albumMatches
                     .album
-                    .also { albumsApiModels ->
-                        val albumsEntityModels = albumsApiModels.map { it.toEntityModel() }
-                        albumDao.insertAlbums(albumsEntityModels)
-                    }
-                    .map { it.toDomainModel() }
+                    .toDomainModel()
 
-                Result.Success(albums)
+                Result.Success(album)
             }
             is ApiResult.Error -> {
                 Result.Failure()
@@ -103,11 +97,11 @@ internal class AlbumRepositoryImpl(
             is ApiResult.Exception -> {
                 Timber.e(apiResult.throwable)
 
-                val albums = albumDao
-                    .getAll()
-                    .map { it.toDomainModel() }
+                val album = albumDao
+                    .getAlbum(artistName, albumName, mbId)
+                    .toDomainModel()
 
-                Result.Success(albums)
+                Result.Success(album)
             }
         }
 }
@@ -196,21 +190,15 @@ internal class AlbumRepositoryImpl(
     private val albumDao: AlbumDao,
 ) : AlbumRepository {
 
-    override suspend fun searchAlbum(phrase: String?): Result<List<Album>> =
-        when (val apiResult = albumRetrofitService.searchAlbumAsync(phrase)) {
+    override suspend fun getAlbumInfo(artistName: String, albumName: String, mbId: String?): Result<Album> =
+        when (val apiResult = albumRetrofitService.getAlbumInfoAsync(artistName, albumName, mbId)) {
             is ApiResult.Success -> {
-                val albums = apiResult
+                val album = apiResult
                     .data
-                    .results
-                    .albumMatches
                     .album
-                    .also { albumsApiModels ->
-                        val albumsEntityModels = albumsApiModels.map { it.toEntityModel() }
-                        albumDao.insertAlbums(albumsEntityModels)
-                    }
-                    .map { it.toDomainModel() }
+                    .toDomainModel()
 
-                Result.Success(albums)
+                Result.Success(album)
             }
             is ApiResult.Error -> {
                 Result.Failure()
@@ -218,11 +206,11 @@ internal class AlbumRepositoryImpl(
             is ApiResult.Exception -> {
                 Timber.e(apiResult.throwable)
 
-                val albums = albumDao
-                    .getAll()
-                    .map { it.toDomainModel() }
+                val album = albumDao
+                    .getAlbum(artistName, albumName, mbId)
+                    .toDomainModel()
 
-                Result.Success(albums)
+                Result.Success(album)
             }
         }
 }
