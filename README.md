@@ -150,7 +150,7 @@ Testing Guidelines:
 
  3. Use Case
 <div align="center">
-        <img width="75%" src="screenshots/UseCase/CustomInstructions/UseCase.svg" alt="About screen" title="About screen"</img>
+        <img width="75%" src="screenshots/UseCase/Context/UseCase.svg" alt="About screen" title="About screen"</img>
         <img height="0" width="5px">
 </div>
 
@@ -190,7 +190,7 @@ Testing Guidelines:
 
  3. Use Case
  <div align="center">
-        <img width="75%" src="screenshots/Repository/CustomInstructions/Repository.svg" alt="About screen" title="About screen"</img>
+        <img width="75%" src="screenshots/Repository/Context/Repository.svg" alt="About screen" title="About screen"</img>
         <img height="0" width="5px">
 </div>
  
