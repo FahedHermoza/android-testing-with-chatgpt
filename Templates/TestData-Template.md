@@ -60,8 +60,68 @@ Testing Guidelines:
 - Don't generate comments on default values:
 
 Class to convert:
-[class or data class structure]
+@Serializable
+internal data class GetAlbumInfoResponse(
+    @SerialName("album") val album: AlbumApiModel,
+)
 
 Consider the following related classes:
-[Child class structures]
+@Serializable
+internal data class AlbumApiModel(
+    @SerialName("mbid") val mbId: String? = null,
+    @SerialName("name") val name: String,
+    @SerialName("artist") val artist: String,
+    @SerialName("image") val images: List<ImageApiModel>? = null,
+    @SerialName("tracks") val tracks: TrackListApiModel? = null,
+    @SerialName("tags") val tags: TagListApiModel? = null,
+)
+
+@Serializable
+internal data class ImageApiModel(
+    @SerialName("#text") val url: String,
+    @SerialName("size") val size: ImageSizeApiModel,
+)
+
+@Serializable
+internal enum class ImageSizeApiModel {
+
+    @SerialName("medium")
+    MEDIUM,
+
+    @SerialName("small")
+    SMALL,
+
+    @SerialName("large")
+    LARGE,
+
+    @SerialName("extralarge")
+    EXTRA_LARGE,
+
+    @SerialName("mega")
+    MEGA,
+
+    @SerialName("")
+    UNKNOWN,
+}
+
+@Serializable
+internal data class TrackListApiModel(
+    @SerialName("track") val track: List<TrackApiModel>,
+)
+
+@Serializable
+internal data class TrackApiModel(
+    @SerialName("name") val name: String,
+    @SerialName("duration") val duration: Int? = null,
+)
+
+@Serializable
+internal data class TagListApiModel(
+    @SerialName("tag") val tag: List<TagApiModel>,
+)
+
+@Serializable
+internal data class TagApiModel(
+    @SerialName("name") val name: String,
+)
 ```
