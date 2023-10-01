@@ -5,7 +5,7 @@
         <img height="0" width="5px">
 </div>
 
-Welcome to Android Testing with ChatGPT! The goal of this repository is to implement the use of an AI tool like "ChatGPT" in the testing process, adhering to the current standards used by an Android engineering team.
+Welcome to Android Testing with ChatGPT! The goal of this repository is to implement the use of an AI tool like "ChatGPT" in the testing process, adhering to the current standards used by an Android engineering team. With this proposal, we can achieve significantly shorter development times for test case generation, test data creation, and the creation of explanatory comments.
 
 Here is a guide that will give you an introduction to the terminology used in this repository: A Brief Narrative, Repository Overview, Android Testing, Testing Approach, ChatGPT (Context, Custom Instructions, controversy), Generation of Similar Functions.
 - **[Guidelines](https://medium.com/@fahedhermoza/android-testing-guidelines-enhanced-with-chatgpt-48d5ef51dd39)**
