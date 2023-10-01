@@ -228,7 +228,7 @@ Class to convert:
 Consider the following related classes:
 [Child class structures]
 ```
-### 🧪 Test Data
+### 🧪 Data Class
  1. Templates
 - **[Here you will find the seed, generator, prompt used](https://github.com/FahedHermoza/android-testing-with-chatgpt/blob/main/Templates/TestData-Template.md#-example-of-use-case-generation-using-the-chatgpt-context)**
 
