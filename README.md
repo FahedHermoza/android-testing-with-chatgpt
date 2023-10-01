@@ -230,10 +230,23 @@ Consider the following related classes:
 ```
 ### 🧪 Test Data
  1. Templates
-- **[Here you will find the seed and generator used](https://github.com/FahedHermoza/android-testing-with-chatgpt/blob/main/Templates/TestData-Template.md#-example-of-use-case-generation-using-the-chatgpt-context)**
+- **[Here you will find the seed, generator, prompt used](https://github.com/FahedHermoza/android-testing-with-chatgpt/blob/main/Templates/TestData-Template.md#-example-of-use-case-generation-using-the-chatgpt-context)**
 
  2. Video
 -
+
+3. Use Case
+ <div align="center">
+        <img width="75%" src="screenshots/TestData/Context/DataClass.svg" alt="About screen" title="About screen"</img>
+        <img height="0" width="5px">
+</div>
+ 
+ 4. Generated Code
+ <div align="center">
+        <img width="75%" src="screenshots/TestData/CustomInstructions/ObjectMother.svg" alt="About screen" title="About screen"</img>
+        <img height="0" width="5px">
+</div>
+
 
 ## 🚦 Wrap Up
 If you have an idea to improve the map, feel free to discuss it in the issues.
