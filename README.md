@@ -7,7 +7,7 @@
 
 Welcome to Android Testing with ChatGPT! The goal of this repository is to implement the use of an AI tool like "ChatGPT" in the testing process, adhering to the current standards used by an Android engineering team.
 
-Here is a guide that will give you an introduction to the terminology used in this repository: Android Testing, ChatGPT, Context, Generate Similar Functions, Custom Instructions.
+Here is a guide that will give you an introduction to the terminology used in this repository: A Brief Narrative, Repository Overview, Android Testing, Testing Approach, ChatGPT (Context, Custom Instructions, controversy), Generation of Similar Functions.
 - **[Guidelines](https://medium.com/@fahedhermoza/android-testing-guidelines-enhanced-with-chatgpt-48d5ef51dd39)**
 
 This contains all topics to help you find what you are looking for quickly. I hope I can help you.
@@ -60,7 +60,7 @@ abstract class BaseIntegrationTest {
 }
 ```
 
-## 🚀 Generate Test Functions
+## 🚀 Test Case Generation
 To create similar functions from a sample base class, we will use the concept of Seed and Generator from the realm of pseudo-random numbers, explained in detail in the Guidelines.
 
 We will base ourselves on 2 structures:
