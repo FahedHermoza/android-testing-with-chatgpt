@@ -1,4 +1,4 @@
-<h1 align="center">Android Testing with ChatGPT 🧪</h1>
+<h1 align="center">Android Testing Enhanced with ChatGPT 🧪</h1>
 
 <div align="center">
         <img width="60%" src="screenshots/badge.svg" alt="About screen" title="About screen"</img>
