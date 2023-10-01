@@ -164,13 +164,14 @@ Testing Guidelines:
 </div>
 
 ### 🧪 Repository
-#### Example of use case generation using the ChatGPT context:
+#### Example of repository generation using the ChatGPT context:
 
  1. Templates
  - **[Here you will find the seed and generator used](https://github.com/FahedHermoza/android-testing-with-chatgpt/blob/main/Templates/Repository-Template.md#-example-of-use-case-generation-using-the-chatgpt-context)**
 
  2. Video
- - 
+ - Here you will find the video of the process 👇
+[![Alt text](https://img.youtube.com/vi/SRHtpYKzlxU/0.jpg)](https://www.youtube.com/watch?v=SRHtpYKzlxU)
  
  3. Use Case
 <div align="center">
@@ -184,12 +185,13 @@ Testing Guidelines:
         <img height="0" width="5px">
 </div>
 
-#### Example of use case generation using ChatGPT's Custom Instruction:
+#### Example of repository generation using ChatGPT's Custom Instruction:
  1. Templates
 - **[Here you will find the seed, generator, prompt used](https://github.com/FahedHermoza/android-testing-with-chatgpt/blob/main/Templates/Repository-Template.md#-example-of-use-case-generation-using-chatgpts-custom-instruction)**
 
  2. Video
--
+ - Here you will find the video of the process 👇
+[![Alt text](https://img.youtube.com/vi/vNmk_uV9VIo/0.jpg)](https://www.youtube.com/watch?v=vNmk_uV9VIo)
 
  3. Use Case
  <div align="center">
@@ -236,7 +238,8 @@ Consider the following related classes:
 - **[Here you will find the seed and generator used](https://github.com/FahedHermoza/android-testing-with-chatgpt/blob/main/Templates/DataClass-Template.md)**
 
  2. Video
--
+ - Here you will find the video of the process 👇
+[![Alt text](https://img.youtube.com/vi/LfX0CiPRgAQ/0.jpg)](https://www.youtube.com/watch?v=LfX0CiPRgAQ)
 
 3. Use Case
  <div align="center">
