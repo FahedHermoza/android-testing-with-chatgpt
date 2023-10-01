@@ -243,7 +243,7 @@ Consider the following related classes:
  
  4. Generated Code
  <div align="center">
-        <img width="75%" src="screenshots/TestData/CustomInstructions/ObjectMother.svg" alt="About screen" title="About screen"</img>
+        <img width="75%" src="screenshots/TestData/Context/ObjectMother.svg" alt="About screen" title="About screen"</img>
         <img height="0" width="5px">
 </div>
 
