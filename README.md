@@ -173,7 +173,7 @@ Testing Guidelines:
  - Here you will find the video of the process 👇
 [![Alt text](https://img.youtube.com/vi/SRHtpYKzlxU/0.jpg)](https://www.youtube.com/watch?v=SRHtpYKzlxU)
  
- 3. Use Case
+ 3. Repository
 <div align="center">
         <img width="75%" src="screenshots/Repository/Context/Repository.svg" alt="About screen" title="About screen"</img>
         <img height="0" width="5px">
@@ -193,7 +193,7 @@ Testing Guidelines:
  - Here you will find the video of the process 👇
 [![Alt text](https://img.youtube.com/vi/vNmk_uV9VIo/0.jpg)](https://www.youtube.com/watch?v=vNmk_uV9VIo)
 
- 3. Use Case
+ 3. Repository
  <div align="center">
         <img width="75%" src="screenshots/Repository/Context/Repository.svg" alt="About screen" title="About screen"</img>
         <img height="0" width="5px">
@@ -241,7 +241,7 @@ Consider the following related classes:
  - Here you will find the video of the process 👇
 [![Alt text](https://img.youtube.com/vi/LfX0CiPRgAQ/0.jpg)](https://www.youtube.com/watch?v=LfX0CiPRgAQ)
 
-3. Use Case
+3. Data Class
  <div align="center">
         <img width="75%" src="screenshots/TestData/Context/DataClass.svg" alt="About screen" title="About screen"</img>
         <img height="0" width="5px">
