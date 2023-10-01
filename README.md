@@ -128,7 +128,7 @@ Testing Guidelines:
  - **[Here you will find the seed and generator used](https://github.com/FahedHermoza/android-testing-with-chatgpt/blob/main/Templates/UseCase-Template.md#-example-of-use-case-generation-using-the-chatgpt-context)**
 
  2. Video
- - 
+ [![Alt text](https://img.youtube.com/vi/_Nnb6_vjATI/0.jpg)](https://www.youtube.com/watch?v=_Nnb6_vjATI)
  
  3. Use Case
 <div align="center">
@@ -146,7 +146,7 @@ Testing Guidelines:
  1. Templates
 - **[Here you will find the seed, generator, prompt used](https://github.com/FahedHermoza/android-testing-with-chatgpt/blob/main/Templates/UseCase-Template.md#-example-of-use-case-generation-using-chatgpts-custom-instruction)**
  2. Video
--
+ [![Alt text](https://img.youtube.com/vi/uCEEq_JYcqw/0.jpg)](https://www.youtube.com/watch?v=uCEEq_JYcqw)
 
  3. Use Case
 <div align="center">
