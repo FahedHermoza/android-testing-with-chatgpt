@@ -22,6 +22,15 @@ This contains all topics to help you find what you are looking for quickly. I ho
 For the examples in the repository, we used the android-showcase project by Igor Wodja as a foundation. This project was chosen because it adheres to the best practices in the industry up to the present day. Although the application is small, it could be considered as an enterprise-type application due to the comprehensive architecture of its core.
 - **[android-showcase by @igorwojda](https://github.com/igorwojda/android-showcase)**
 
+## 🤖💬 Artificial Intelligence (AI) Tool: ChatGPT
+ChatGPT is a natural language processing artificial intelligence tool developed by OpenAI. While ChatGPT can offer valuable assistance, it’s crucial to emphasize that it should not be considered a replacement for thorough code reviews, rigorous testing, or professional advice when addressing critical tasks in software development. Software engineers should use ChatGPT as a complementary tool to enhance their productivity and problem-solving skills, especially in specific cases such as testing.
+
+Taking advantage of its ability to generate coherent and relevant text, we will focus on three key applications of ChatGPT in software testing:
+
+1. Test Case Generation: ChatGPT can assist in automatically generating test cases in natural language. Describing the expected behavior of a function or feature allows ChatGPT to generate detailed test cases.
+2. Test Data Generation: ChatGPT can be used to generate realistic test data, valuable for evaluating software performance and scalability.
+3. Documentation, Comments, and Support: ChatGPT can be a valuable tool for creating documentation, both for end-users and internal use. It facilitates explaining how to use various functions and provides answers to frequently asked questions.
+
 ## 🧩 Integration Test
 Integration tests are responsible for verifying interactions and connection points among various components, modules, and services within an Android application.
 
@@ -127,9 +136,8 @@ Testing Guidelines:
  1. Templates
  - **[Here you will find the seed and generator used](https://github.com/FahedHermoza/android-testing-with-chatgpt/blob/main/Templates/UseCase-Template.md#-example-of-use-case-generation-using-the-chatgpt-context)**
 
- 2. Video
- - Here you will find the video of the process 👇
-[![Alt text](https://img.youtube.com/vi/_Nnb6_vjATI/0.jpg)](https://www.youtube.com/watch?v=_Nnb6_vjATI)
+ 2. Process
+ - **[Here you will find the video of the process](https://www.youtube.com/watch?v=_Nnb6_vjATI)**
  
  3. Use Case
 <div align="center">
@@ -147,9 +155,8 @@ Testing Guidelines:
  1. Templates
 - **[Here you will find the seed, generator, prompt used](https://github.com/FahedHermoza/android-testing-with-chatgpt/blob/main/Templates/UseCase-Template.md#-example-of-use-case-generation-using-chatgpts-custom-instruction)**
 
- 2. Video
- - Here you will find the video of the process 👇
-[![Alt text](https://img.youtube.com/vi/uCEEq_JYcqw/0.jpg)](https://www.youtube.com/watch?v=uCEEq_JYcqw)
+ 2. Process
+ - **[Here you will find the video of the process](https://www.youtube.com/watch?v=uCEEq_JYcqw)**
 
  3. Use Case
 <div align="center">
@@ -169,9 +176,8 @@ Testing Guidelines:
  1. Templates
  - **[Here you will find the seed and generator used](https://github.com/FahedHermoza/android-testing-with-chatgpt/blob/main/Templates/Repository-Template.md#-example-of-use-case-generation-using-the-chatgpt-context)**
 
- 2. Video
- - Here you will find the video of the process 👇
-[![Alt text](https://img.youtube.com/vi/SRHtpYKzlxU/0.jpg)](https://www.youtube.com/watch?v=SRHtpYKzlxU)
+ 2. Process
+ - **[Here you will find the video of the process](https://www.youtube.com/watch?v=SRHtpYKzlxU)**
  
  3. Repository
 <div align="center">
@@ -189,9 +195,8 @@ Testing Guidelines:
  1. Templates
 - **[Here you will find the seed, generator, prompt used](https://github.com/FahedHermoza/android-testing-with-chatgpt/blob/main/Templates/Repository-Template.md#-example-of-use-case-generation-using-chatgpts-custom-instruction)**
 
- 2. Video
- - Here you will find the video of the process 👇
-[![Alt text](https://img.youtube.com/vi/vNmk_uV9VIo/0.jpg)](https://www.youtube.com/watch?v=vNmk_uV9VIo)
+ 2. Process
+ - **[Here you will find the video of the process](https://www.youtube.com/watch?v=vNmk_uV9VIo)**
 
  3. Repository
  <div align="center">
@@ -237,9 +242,8 @@ Consider the following related classes:
  1. Templates
 - **[Here you will find the seed and generator used](https://github.com/FahedHermoza/android-testing-with-chatgpt/blob/main/Templates/DataClass-Template.md)**
 
- 2. Video
- - Here you will find the video of the process 👇
-[![Alt text](https://img.youtube.com/vi/LfX0CiPRgAQ/0.jpg)](https://www.youtube.com/watch?v=LfX0CiPRgAQ)
+ 2. Process
+ - **[Here you will find the video of the process](https://www.youtube.com/watch?v=LfX0CiPRgAQ)**
 
 3. Data Class
  <div align="center">
@@ -255,7 +259,7 @@ Consider the following related classes:
 
 
 ## 🚦 Wrap Up
-If you have an idea to improve the map, feel free to discuss it in the issues.
+If you have an idea to improve this proposal, do not hesitate to comment in the issues.
 
 ## ⚠️  Disclamer
 Use the content of this repository at your discretion and with caution.
