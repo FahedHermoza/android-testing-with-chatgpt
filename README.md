@@ -27,9 +27,9 @@ ChatGPT is a natural language processing artificial intelligence tool developed 
 
 Taking advantage of its ability to generate coherent and relevant text, we will focus on three key applications of ChatGPT in software testing:
 
-1. Test Case Generation: ChatGPT can assist in automatically generating test cases in natural language. Describing the expected behavior of a function or feature allows ChatGPT to generate detailed test cases.
-2. Test Data Generation: ChatGPT can be used to generate realistic test data, valuable for evaluating software performance and scalability.
-3. Documentation, Comments, and Support: ChatGPT can be a valuable tool for creating documentation, both for end-users and internal use. It facilitates explaining how to use various functions and provides answers to frequently asked questions.
+1. **Test Case Generation:** ChatGPT can assist in automatically generating test cases in natural language. Describing the expected behavior of a function or feature allows ChatGPT to generate detailed test cases.
+2. **Test Data Generation:** ChatGPT can be used to generate realistic test data, valuable for evaluating software performance and scalability.
+3. **Documentation, Comments, and Support:** ChatGPT can be a valuable tool for creating documentation, both for end-users and internal use. It facilitates explaining how to use various functions and provides answers to frequently asked questions.
 
 ## 🧩 Integration Test
 Integration tests are responsible for verifying interactions and connection points among various components, modules, and services within an Android application.
@@ -211,7 +211,7 @@ Testing Guidelines:
 </div>
 
 
-## 🚀 Generate Test Data
+## 🚀 Test Data Generation
 Use the structure of the Object Mother pattern to generate test data. Add the suffix "Mother" to the class name, for example, CreateAdditionalCardMother. The term "Mother" comes from Domain-Driven Design (DDD) and symbolizes the birth or creation of objects. In the context of Martin Fowler's Object Mother pattern, these classes are used to centralize the creation of test objects and provide default values to simplify test data setup. It is advisable to use this class for objects that exceed 10 lines of code.
 
 ### 🛠️ Using the context
