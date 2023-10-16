@@ -31,6 +31,8 @@ Taking advantage of its ability to generate coherent and relevant text, we will 
 2. **Test Data Generation:** ChatGPT can be used to generate realistic test data, valuable for evaluating software performance and scalability.
 3. **Documentation, Comments, and Support:** ChatGPT can be a valuable tool for creating documentation, both for end-users and internal use. It facilitates explaining how to use various functions and provides answers to frequently asked questions.
 
+While we can create basic templates using ChatGPT, **the output always must undergo a thorough review by a software engineer**. This is because the tool's effectiveness is approximately 60%, which means there will always be a margin of error that needs to be analyzed, taking into consideration the engineer's expertise.
+
 ## 🧩 Integration Test
 Integration tests are responsible for verifying interactions and connection points among various components, modules, and services within an Android application.
 
