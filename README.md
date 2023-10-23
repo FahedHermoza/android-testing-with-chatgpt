@@ -45,8 +45,6 @@ Unit tests verify how the isolated parts of your app work.
 6. Tool used: JUnit.
 
 ## 🚀 Test Case Generation
-To generate similar functions from a sample base class, we will utilize the concept of Seed and Generator from the realm of pseudo-random numbers, which is explained in detail in the Guidelines.
-
 We will use two structures provided by ChatGPT:
 1. Independent Prompts: This is the most basic structure that allows us to provide details in a single prompt. However, it has a limitation.
 2. The Context: ChatGPT is designed to maintain the context within a conversation, enabling it to understand and respond to the current conversation thread.
@@ -68,7 +66,7 @@ Consider the following related classes:
 ```
 
 ### 🛠  Using the Context
-With the previously mentioned structure, we can obtain a base class with the established guidelines. From there, we can proceed with generating similar functions, as described in the guideline. To create functions based on the base class, we will use the concept of seed and generator. If you want more information about seed and generator, go to this link.
+With the previously mentioned structure, we can obtain a base class with the established guidelines. From there, we can proceed with generating similar functions, as described in the [guideline](https://fahedhermoza.medium.com/android-testing-guidelines-enhanced-with-chatgpt-48d5ef51dd39). To create functions based on the base class, we will use the concept of seed and generator. If you want more information about seed and generator, go to this [link](https://fahedhermoza.medium.com/android-testing-guidelines-enhanced-with-chatgpt-48d5ef51dd39).
 
 Seed
 ```
