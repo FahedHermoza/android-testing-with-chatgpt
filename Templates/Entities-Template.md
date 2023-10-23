@@ -106,7 +106,7 @@ class AlbumTest {
     }
 }
 ```
-### Generator: How would you like ChatGPT to respond?
+### Generator:
 ```
 Task: As an Android expert, I'll guide you in writing unit tests for a Kotlin class.
 
