@@ -36,6 +36,14 @@ internal data class Image(
     val size: ImageSize,
 )
 
+internal enum class ImageSize {
+    SMALL,
+    MEDIUM,
+    LARGE,
+    EXTRA_LARGE,
+    MEGA,
+}
+
 internal data class Track(
     val name: String,
     val duration: Int? = null,
@@ -140,6 +148,14 @@ internal data class Image(
     val url: String,
     val size: ImageSize,
 )
+
+internal enum class ImageSize {
+    SMALL,
+    MEDIUM,
+    LARGE,
+    EXTRA_LARGE,
+    MEGA,
+}
 
 internal data class Track(
     val name: String,
