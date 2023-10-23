@@ -100,9 +100,16 @@ Consider the following related classes:
  - **[Here you will find the video of the process]()**
  
  3. Use Case
+ <div align="center">
+        <img width="75%" src="screenshots/Entities/Prompt/Entities.svg" alt="About screen" title="About screen"</img>
+        <img height="0" width="5px">
+</div>
 
  4. Generated Code
-
+ <div align="center">
+        <img width="75%" src="screenshots/Entities/Prompt/EntitiesTest.svg" alt="About screen" title="About screen"</img>
+        <img height="0" width="5px">
+</div>
 
 ## 🧩 Integration Test
 Integration tests are responsible for verifying interactions and connection points among various components, modules, and services within an Android application.
