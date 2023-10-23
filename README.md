@@ -91,7 +91,7 @@ Consider the following related classes:
 ```
 
 ### 🧪 Entities
-#### Example of entities generation using the ChatGPT context:
+#### Example of entities generation using Independent Prompts:
 
  1. Templates
  - **[Here you will find the seed and generator used](https://github.com/FahedHermoza/android-testing-with-chatgpt/blob/main/Templates/Entities-Template.md)**
