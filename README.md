@@ -33,6 +33,79 @@ Taking advantage of its ability to generate coherent and relevant text, we will 
 
 While we can create basic templates using ChatGPT, **the output always must undergo a thorough review by a software engineer**. This is because the tool's effectiveness is approximately 60%, which means there will always be a margin of error that needs to be analyzed, taking into consideration the engineer's expertise.
 
+## 🧩 Unit Test
+Unit tests verify how the isolated parts of your app work.
+
+### Guidelines
+1. Keep the tests small, individual, and focused.
+2. Function names should use interpolated strings, respecting spaces, following the structure: Given - When - Then.
+3. The function structure should follow the AAA pattern (Arrange-Act-Assert).
+4. Explanatory comment: In cases where the function doesn't have a clear name and requires context, you can include an explanatory comment in Kotlin KDoc format.
+5. The class name should use the "Test" suffix.
+6. Tool used: JUnit.
+
+## 🚀 Test Case Generation
+To generate similar functions from a sample base class, we will utilize the concept of Seed and Generator from the realm of pseudo-random numbers, which is explained in detail in the Guidelines.
+
+We will use two structures provided by ChatGPT:
+1. Independent Prompts: This is the most basic structure that allows us to provide details in a single prompt. However, it has a limitation.
+2. The Context: ChatGPT is designed to maintain the context within a conversation, enabling it to understand and respond to the current conversation thread.
+
+### 🛠  Using Independent Prompts
+```
+Task: As an Android expert, I'll guide you in writing unit tests for a Kotlin class.
+Principles: We will adhere to best practices by:
+Keeping tests individual and focused.
+Using string interpolation, spaces, and descriptive names for test functions.
+Incorporating the parts "Event," "Action," and "Return" in test function names.
+Following the AAA (Arrange, Act, Assert) pattern for each test function.
+
+Class to convert:
+[class or data class structure]
+
+Consider the following related classes:
+[Child class structures]
+```
+
+### 🛠  Using the Context
+With the previously mentioned structure, we can obtain a base class with the established guidelines. From there, we can proceed with generating similar functions, as described in the guideline. To create functions based on the base class, we will use the concept of seed and generator. If you want more information about seed and generator, go to this link.
+
+Seed
+```
+You should take this class as the base for future kotlin classes, keeping the structure:
+[Example Base Class]
+```
+
+Generator
+```
+Task: As an Android expert, I'll guide you in writing unit tests for a Kotlin class.
+Principles: We will adhere to best practices by:
+Keeping tests individual and focused.
+Using string interpolation, spaces, and descriptive names for test functions.
+Incorporating the parts "Event," "Action," and "Return" in test function names.
+Following the AAA (Arrange, Act, Assert) pattern for each test function.
+
+Class to convert:
+[class or data class structure]
+
+Consider the following related classes:
+[Child class structures]
+```
+
+### 🧪 Entities
+#### Example of entities generation using the ChatGPT context:
+
+ 1. Templates
+ - **[Here you will find the seed and generator used]()**
+
+ 2. Process
+ - **[Here you will find the video of the process]()**
+ 
+ 3. Use Case
+
+ 4. Generated Code
+
+
 ## 🧩 Integration Test
 Integration tests are responsible for verifying interactions and connection points among various components, modules, and services within an Android application.
 
@@ -75,9 +148,9 @@ abstract class BaseIntegrationTest {
 To create similar functions from a sample base class, we will use the concept of Seed and Generator from the realm of pseudo-random numbers, explained in detail in the Guidelines.
 
 We will base ourselves on 2 structures:
-The first one, the structure using the ChatGPT context. ChatGPT is designed to maintain context within a conversation, allowing it to understand and respond to the current thread of conversation.
+1. The context: ChatGPT is designed to maintain context within a conversation, allowing it to understand and respond to the current thread of conversation.
 
-The second one, using custom instructions. Through this functionality, ChatGPT allows us to preload 2 prompts through 2 questions, which will be useful to load the seed and the generator. Here, we must take into account the limit of 1500 characters for each preloaded prompt.
+2. Custom instructions: Through this functionality, ChatGPT allows us to preload 2 prompts through 2 questions, which will be useful to load the seed and the generator. Here, we must take into account the limit of 1500 characters for each preloaded prompt.
 
 ### 🛠  Using the context
 Seed
