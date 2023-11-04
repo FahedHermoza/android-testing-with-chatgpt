@@ -114,7 +114,7 @@ Consider the following related classes:
 #### Example of entities generation using the ChatGPT context:
 
  1. Templates
- - **[Here you will find the seed and generator used]()**
+ - **[Here you will find the seed and generator used](https://github.com/FahedHermoza/android-testing-with-chatgpt/blob/main/Templates/Entities-Template.md#-example-of-entities-generation-using-the-chatgpt-context)**
 
  2. Process
  - **[Here you will find the video of the process]()**
