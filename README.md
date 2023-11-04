@@ -112,7 +112,7 @@ Consider the following related classes:
 </div>
 
 #### Example of entities generation using the ChatGPT context:
-
+It sounds strange, but for cases like the example presented, I take the AlbumTest class as a basis and create unit tests for the Album class. A result similar to AlbumTest should be obtained; however, this should work for any entity other than Album.
  1. Templates
  - **[Here you will find the seed and generator used](https://github.com/FahedHermoza/android-testing-with-chatgpt/blob/main/Templates/Entities-Template.md#-example-of-entities-generation-using-the-chatgpt-context)**
 
@@ -120,8 +120,16 @@ Consider the following related classes:
  - **[Here you will find the video of the process]()**
  
  3. Use Case
+ <div align="center">
+        <img width="75%" src="screenshots/Entities/Prompt/Entities.svg" alt="About screen" title="About screen"</img>
+        <img height="0" width="5px">
+</div>
 
  4. Generated Code
+ <div align="center">
+        <img width="75%" src="screenshots/Entities/Context/EntitiesTtest.svg" alt="About screen" title="About screen"</img>
+        <img height="0" width="5px">
+</div>
 
 ## 🧩 Integration Test
 Integration tests are responsible for verifying interactions and connection points among various components, modules, and services within an Android application.
