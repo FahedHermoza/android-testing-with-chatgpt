@@ -111,6 +111,18 @@ Consider the following related classes:
         <img height="0" width="5px">
 </div>
 
+#### Example of entities generation using the ChatGPT context:
+
+ 1. Templates
+ - **[Here you will find the seed and generator used]()**
+
+ 2. Process
+ - **[Here you will find the video of the process]()**
+ 
+ 3. Use Case
+
+ 4. Generated Code
+
 ## 🧩 Integration Test
 Integration tests are responsible for verifying interactions and connection points among various components, modules, and services within an Android application.
 
