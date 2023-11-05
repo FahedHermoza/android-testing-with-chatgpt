@@ -379,9 +379,9 @@ Testing functions to document:
 
  1. Templates
 - Here you will find the function used:
-**[Entities](https://github.com/FahedHermoza/android-testing-with-chatgpt/blob/main/Templates/TestingFunctions-Template.md#prompt-for-function-of-entities)**
-**[Use Case](https://github.com/FahedHermoza/android-testing-with-chatgpt/blob/main/Templates/TestingFunctions-Template.md#prompt-for-function-of-usecase)**
-**[Repository](https://github.com/FahedHermoza/android-testing-with-chatgpt/blob/main/Templates/TestingFunctions-Template.md#prompt-for-function-of-respository)**
+    - **[Entities](https://github.com/FahedHermoza/android-testing-with-chatgpt/blob/main/Templates/TestingFunctions-Template.md#prompt-for-function-of-entities)**
+    - **[Use Case](https://github.com/FahedHermoza/android-testing-with-chatgpt/blob/main/Templates/TestingFunctions-Template.md#prompt-for-function-of-usecase)**
+    - **[Repository](https://github.com/FahedHermoza/android-testing-with-chatgpt/blob/main/Templates/TestingFunctions-Template.md#prompt-for-function-of-respository)**
 
  2. Process
  - **[Here you will find the video of the process]()**
