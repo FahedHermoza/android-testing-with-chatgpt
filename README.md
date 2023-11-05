@@ -387,9 +387,16 @@ Testing functions to document:
  - **[Here you will find the video of the process]()**
  
  3. Testing functions
+ <div align="center">
+        <img width="75%" src="screenshots/TestingFucntions/Prompt/TestingFunctions.svg" alt="About screen" title="About screen"</img>
+        <img height="0" width="5px">
+</div>
 
  4. Generated Code
-
+ <div align="center">
+        <img width="75%" src="screenshots/TestingFucntions/Prompt/TestingFunctionsDoc.svg" alt="About screen" title="About screen"</img>
+        <img height="0" width="5px">
+</div>
 
 ## 🚦 Wrap Up
 If you have an idea to improve this proposal, do not hesitate to comment in the issues.
