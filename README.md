@@ -358,6 +358,32 @@ Consider the following related classes:
 </div>
 
 
+## 🚀 Generate explanatory comment
+In cases where the function doesn't have a clear name and requires context, you can include an explanatory comment in Kotlin KDoc format. In Kotlin, KDoc (Kotlin Doc) is used for documenting code. But you can use JavaDoc or Python's docstrings depending on the project.
+
+
+### 🛠 ️Using Independent Prompts
+```
+Task: As an [Android] expert, I'll generate the document of function kotlin.
+
+Principles:
+- Document the code in Kotlin using the [KDoc format]. 
+- Provide descriptions for the functions and their parameters. 
+```
+### 🧪 Testing functions
+#### Example of generate explanatory comment using  Independent Prompts:
+
+ 1. Templates
+ - **[Here you will find the seed and generator used]()**
+
+ 2. Process
+ - **[Here you will find the video of the process]()**
+ 
+ 3. Repository
+
+ 4. Generated Code
+
+
 ## 🚦 Wrap Up
 If you have an idea to improve this proposal, do not hesitate to comment in the issues.
 
