@@ -368,18 +368,25 @@ Task: As an [Android] expert, I'll generate the document of function kotlin.
 
 Principles:
 - Document the code in Kotlin using the [KDoc format]. 
-- Provide descriptions for the functions and their parameters. 
+- Provide descriptions for the functions and their parameters.
+
+Testing functions to document:
+[Functions structure]
 ```
+
 ### 🧪 Testing functions
 #### Example of generate explanatory comment using  Independent Prompts:
 
  1. Templates
- - **[Here you will find the seed and generator used]()**
+- Here you will find the function used:
+**[Entities](https://github.com/FahedHermoza/android-testing-with-chatgpt/blob/main/Templates/TestingFunctions-Template.md#prompt-for-function-of-entities)**
+**[Use Case](https://github.com/FahedHermoza/android-testing-with-chatgpt/blob/main/Templates/TestingFunctions-Template.md#prompt-for-function-of-usecase)**
+**[Repository](https://github.com/FahedHermoza/android-testing-with-chatgpt/blob/main/Templates/TestingFunctions-Template.md#prompt-for-function-of-respository)**
 
  2. Process
  - **[Here you will find the video of the process]()**
  
- 3. Repository
+ 3. Testing functions
 
  4. Generated Code
 
