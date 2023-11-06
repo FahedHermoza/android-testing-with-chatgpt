@@ -97,7 +97,7 @@ Consider the following related classes:
  - **[Here you will find the seed and generator used](https://github.com/FahedHermoza/android-testing-with-chatgpt/blob/main/Templates/Entities-Template.md)**
 
  2. Process
- - **[Here you will find the video of the process]()**
+ - **[Here you will find the video of the process](https://youtu.be/HsnxdF147iQ)**
  
  3. Use Case
  <div align="center">
@@ -384,7 +384,7 @@ Testing functions to document:
     - **[Repository](https://github.com/FahedHermoza/android-testing-with-chatgpt/blob/main/Templates/TestingFunctions-Template.md#prompt-for-function-of-respository)**
 
  2. Process
- - **[Here you will find the video of the process]()**
+ - **[Here you will find the video of the process](https://youtu.be/ui61FbPirhw)**
  
  3. Testing functions
  <div align="center">
